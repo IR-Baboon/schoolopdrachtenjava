@@ -10,7 +10,12 @@ public class Main {
         } catch (IllegalArgumentException iae) {
             System.out.println(iae.getMessage());
         }
-
+        // voor de test
+        // als ik de try catch zou verwijderen zou compileert de code niet meer.
+        // na de test:
+        // Exception in thread "main" java.lang.IllegalArgumentException: Radius moet groter dan 0 zijn!
+        // at practicums.practicum3B.Cirkel.<init>(Cirkel.java:13)
+        // at practicums.practicum3B.Main.main(Main.java:9)
         System.out.println(c1);
         System.out.println(c2);
     }
