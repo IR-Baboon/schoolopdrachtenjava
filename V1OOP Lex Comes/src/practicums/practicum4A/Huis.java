@@ -19,7 +19,7 @@ public class Huis {
     }
 
     public String toString() {
-        return "Huis " + adres + " is gebouwd in " + bouwjaar + "\nen heeft huisbaas " + huisbaas.toString();
+        return "Huis " + adres + " is gebouwd in " + bouwjaar + "\nen heeft huisbaas: " + huisbaas.toString();
     }
 }
 

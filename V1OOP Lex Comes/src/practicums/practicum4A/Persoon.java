@@ -10,6 +10,6 @@ public class Persoon {
     }
 
     public String toString() {
-        return naam + "; leeftijd " + leeftijd;
+        return naam + "; leeftijd: " + leeftijd;
     }
 }

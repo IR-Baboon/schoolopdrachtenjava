@@ -41,12 +41,11 @@ public class AutoHuur {
         String sHuurder = "\ner is geen huurder bekend";
         String sAuto = "er is geen auto bekend";
         String sBerekening = "\naantal dagen: " + aantalDagen + " en dat kost: 0.0";
-        if (gehuurdeAuto == null && huurder != null) {
+        if ( huurder != null) {
             sHuurder = "\nop naam van: " + huurder.toString();
         }
-        if (gehuurdeAuto != null && huurder != null) {
+        if (gehuurdeAuto != null) {
             sAuto = "Autotype: " + gehuurdeAuto.toString();
-            sHuurder = "\nop naam van: " + huurder.toString();
             sBerekening = "\naantal dagen: " + aantalDagen + " en dat kost: " + totaalPrijs();
         }
         return sAuto + sHuurder + sBerekening ;
